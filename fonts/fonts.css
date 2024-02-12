@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'GT Walsheim Pro';
+    src: url('GTWalsheimPro-Bold.eot');
+    src: local('GT Walsheim Pro Bold'), local('GTWalsheimPro-Bold'),
+        url('GTWalsheimPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('GTWalsheimPro-Bold.woff2') format('woff2'),
+        url('GTWalsheimPro-Bold.woff') format('woff'),
+        url('GTWalsheimPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+p, a {
+    font-family: 'Avenir LT Pro', sans-serif;
+}
+
+button {
+    font-family: 'Avenir LT Pro', sans-serif;
+}
+
+
+body {
+    font-family: 'GT Walsheim Pro', 'Avenir LT Pro', sans-serif;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'GT Walsheim Pro', 'Avenir LT Pro', sans-serif;
+    font-weight: bold;
+}

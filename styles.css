@@ -1,0 +1,522 @@
+.cover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('img/bg1.webp'); /* Set the background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the background image */
+    padding: 20px; /* Add padding to prevent text from sticking to edges */
+}
+
+header {
+    text-align: center;
+    margin: 0;
+}
+
+.background-image {
+    width: 100%;
+    overflow: hidden; /* Ensure the image doesn't overflow the container */
+
+}
+
+.background-image img{
+    width: 100%; /* Make the image take up 100% of its container's width */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    display: block; /* Ensure the image doesn't have any extra space around it */
+
+}
+
+.logo {
+    width: 20%; /* Adjust the width as a percentage of the container */
+    max-width: 100px; /* Limit the maximum width of the logo */
+    margin-bottom: 10px; /* Add space between logo and heading */
+}
+
+h1, h2, h3, h4, h5 {  
+    color: #b24e47;
+    margin: 0;
+}
+
+
+
+main {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #b24e47;
+    margin: 0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #b24e47;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 20px;
+}
+
+button:hover {
+    background-color: #80352f;
+}
+
+
+.cover-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.custom-row {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.custom-col {
+    margin-bottom: 20px; /* Add space between rows */
+}
+
+.box {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+
+    display: flex;
+    justify-content: center;
+    
+    background-color: #f5f5fa; /* Add your desired background color */
+}
+
+body {
+    background: #f5f5fa;
+}
+
+.digiart, .traditional-artworks,.competition-artworks, .certificates{
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+    color: #2a1f62;
+    border: 2px solid #fff; /* Added border */
+    
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+   
+    padding: 15px;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+ 
+}
+
+.service-item {
+  
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+    color: #2a1f62;
+    border: 2px solid #fff; /* Added border */
+    
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+   
+    padding: 15px;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+ 
+}
+
+.schem {
+    background: white;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+    color: #2a1f62;
+    border: 2px solid #fff; /* Added border */
+    
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+   
+    padding: 15px;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.about {
+    background: #f5f5fa;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+    color: #2a1f62;
+    border: 2px solid #fff; /* Added border */
+    
+  
+    padding: 15px;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+ 
+}
+
+.robot-container{
+    background: white;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: -10px -10px 30px 0 #fff, 10px 10px 30px 0 #1d0dca17;
+    color: #2a1f62;
+    border: 2px solid #fff; /* Added border */
+    
+    font-family: "Cascadia Code", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+   
+    padding: 15px;
+  
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+
+
+i {
+    color: #b24e47;
+}
+
+@media (max-width: 768px) {
+    /* Adjust font sizes for smaller screens */
+    h1 {
+        font-size: 6vw;
+    }
+
+    p {
+        font-size: 4vw;
+    }
+
+    h4 {
+        font-size: 3.9vw;
+    }
+
+    h5 {
+        font-size: 3.9vw;
+    }
+
+    button {
+        padding: 2vh 5vw;
+        font-size: 3vw;
+    }
+}
+
+
+.portfolio {
+    padding: 40px 0; /* Add padding above and below the portfolio section */
+    background-color: #f5f5fa; /* Add a background color for the portfolio section */
+}
+
+
+
+
+.portfolio img {
+    width: 100%; /* Make the images responsive and fill the container */
+    margin-bottom: 20px; /* Add space below each image */
+    border-radius: 10px;
+}
+
+
+
+
+.traditional-artworks .col-md-4 {
+    text-align: center; /* Center the content horizontally */
+}
+
+.traditional-artworks img {
+    display: block; /* Make images block-level elements */
+    margin: 0 auto 20px; /* Center images horizontally and add space below */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    border-radius: 10px;
+}
+
+
+
+
+.competition-info {
+    text-align: center;   
+}
+
+.competition-artworks img,
+.certificate-artworks img,
+
+.infographic img {
+    display: block;
+    margin: 0 auto 20px; /* Center images horizontally and add space below */
+    max-width: 100%; /* Ensure images don't exceed container width */
+    border-radius: 10px;
+    
+}
+
+.container-logo img {
+    max-width: 100%;
+   
+    height: 100px; /* Set the height to match the width */
+    display: block;
+    margin: 0 auto; /* Center the images horizontally */
+    padding: 1px; /* Add some padding around the images */
+    border-radius: 20px;
+}
+
+/* Default styles */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (height/width) */
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+    .video-container {
+        padding-bottom: 75%; /* Adjust as needed for the aspect ratio */
+    }
+}
+
+/* Custom CSS for the dark carousel */
+.carousel.carousel-dark .carousel-item img {
+    height: 70vh; /* Adjust the height of the carousel images */
+    object-fit: cover; /* Ensure the images cover the entire carousel item */
+    
+  }
+  
+  .carousel.carousel-dark .carousel-control-prev-icon,
+  .carousel.carousel-dark .carousel-control-next-icon {
+    background-image: none; /* Remove default background images for carousel controls */
+  }
+  
+  .carousel.carousel-dark .carousel-control-prev-icon::before {
+    content: '\2039'; /* Customize the previous control with a left arrow */
+  }
+  
+  .carousel.carousel-dark .carousel-control-next-icon::before {
+    content: '\203A'; /* Customize the next control with a right arrow */
+  }
+  
+
+    /* Custom CSS */
+    .carousel-control-prev:hover, .carousel-control-next:hover {
+        background-color: rgba(255, 255, 255, 0.5); /* Change background color on hover */
+      }
+    
+      /* Change color of the icon on hover */
+      .carousel-control-prev:hover i, 
+      .carousel-control-next:hover i {
+        color: white;
+      }
+
+       /* Custom CSS */
+  .carousel-indicators button:hover {
+    background-color: rgba(255, 255, 255, 0.5); /* Change background color on hover */
+  }
+  
+
+  .carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: white;
+}
+
+
+
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgba(178, 78, 71, 0.5), rgba(178, 78, 71, 0)); /* Gradient overlay */
+  }
+
+
+
+
+  .container-webdev img {
+    max-width: 100%;
+   
+    height: 150px; /* Set the height to match the width */
+    width: 150px;
+    display: block;
+    margin: 0 auto; /* Center the images horizontally */
+    padding: 1px; /* Add some padding around the images */
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+  
+
+
+
+
+ /* Footer styles */
+ .footer {
+    background-color: #b24e47;
+    padding: 20px 0;
+    text-align: center;
+    color: white; /* Change text color to white */
+  }
+  /* Icon styles */
+  .footer-icons {
+    display: inline-block;
+  }
+  .footer-icons a, .footer-icons i {
+    color: white;
+    margin: 0 5px;
+    font-size: 3vw;
+    text-decoration: none;
+  }
+
+  .copyright {
+    margin-top: 10px;
+  }
+
+     /* Resume link styles */
+     .resume-link {
+        color: white; /* Change link color to white */
+        font-weight: bold; /* Make the text bold */
+        text-decoration: underline; /* Add underline to the text */
+      }
+
+
+
+
+
+    .container-nav {
+        padding-top: 50px; /* To prevent content from being hidden under navbar */
+    }
+    .navbar {
+        position: fixed;
+        top: -50px; /* Initial hidden state */
+        left: 0;
+        width: 100%;
+        background-color: rgba(178, 78, 71, 0.8); /* Background color with 50% opacity */
+        padding: 10px 20px;
+        box-sizing: border-box;
+        transition: top 0.3s;
+        z-index: 1000;
+    }
+    
+    
+    .brand {
+        color: white;
+        float: left;
+        font-size: 1.2rem;
+        margin-right: 20px;
+    }
+    
+    .nav-links {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        float: right;
+    }
+    
+    .nav-links li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    .nav-links li a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    
+    .nav-links li a:hover {
+        color: #ddd;
+    }
+    
+    .nav-section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        scroll-margin-top: 50px; /* Offset for smooth scrolling */
+    }
+    
+    .nav-links i {
+        color: white;
+    }
+
+
+/* Progress bar container */
+.progress-container {
+    width: 100%;
+    background-color: #f5f5f5;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+/* Progress bar */
+.progress-bar {
+    height: 4px;
+    background-color: #b24e47; /* Green */
+    width: 0%;
+}
+
+.socialmedia_container {
+    display: flex;
+    width: 100%;
+  }
+  
+  .half-width {
+    width: 50%;
+    box-sizing: border-box;
+  }
+  
+  .half-width img {
+    width: calc(50% - 10px); /* Adjusted width considering the margin */
+    height: auto;
+    display: block;
+    float: left;
+    margin: 5px; /* Adding margin to create space between images */
+  }
+
+  .half-width1 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 10px; /* Adjust padding as needed */
+  }
+  
+  .half-width1 img {
+    width: 100%;
+    height: auto;
+   
+  }
